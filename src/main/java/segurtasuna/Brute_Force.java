@@ -27,7 +27,7 @@ public class Brute_Force {
         for(int i = 0; i < 26; i++){
             res = "";
             res = desen(mensaje,i);
-            System.out.println("ITERACION "+(i+1)+": "+res);
+            System.out.println("ITERACION "+(i+1)+": "+res+" | CLAVE DE ENCRIPTACION: "+i);
         }
     }
 
